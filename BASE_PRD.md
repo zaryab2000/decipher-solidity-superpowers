@@ -191,6 +191,12 @@ decipher-solidity-superpowers/
 
 ---
 
+## Important NOTE:
+- THE DETAILED INSTRUCTIONS ( PRD ) for building any of the skills, commands , hooks or agents needed for this plugin is in the respective file path inside spec/ folder.
+for instance detailed prd to build the solidity-builder SKILL is in spec/skills-prd/solidity-builder-prd.md FILE.
+ALWAYS TAKE INSTRUCTIONS of HOW TO BUILD Something in the main plugin, by going to its respective FILE in the spec/ folder.
+This FILE just acts as a pointer to the respective PRD files.
+
 ## 4. The Master Orchestrator: using-solidity-superpowers
 
 **File:** `skills/using-solidity-superpowers/SKILL.md`
@@ -446,14 +452,14 @@ NO EXTERNAL AUDIT WITHOUT A COMPLETE AUDIT PACKAGE
 
 All commands follow the Superpowers pattern: they set `disable-model-invocation: true` and delegate entirely to the corresponding skill.
 
-| Command            | Delegates To             | When to Use                                                      |
-| ------------------ | ------------------------ | ---------------------------------------------------------------- |
-| `/new-contract`    | `solidity-planner`       | Starting design of any new contract, interface, or library       |
-| `/gas-audit`       | `solidity-gas-optimizer` | Tests pass, ready for gas optimization report before deployment  |
+| Command            | Delegates To             | When to Use                                                       |
+| ------------------ | ------------------------ | ----------------------------------------------------------------- |
+| `/new-contract`    | `solidity-planner`       | Starting design of any new contract, interface, or library        |
+| `/gas-audit`       | `solidity-gas-optimizer` | Tests pass, ready for gas optimization report before deployment   |
 | `/security-review` | `solidity-code-reviewer` | Contract implementation complete, need structured security review |
-| `/audit-prep`      | `solidity-audit-prep`    | Code is feature-complete, preparing for external audit           |
-| `/pre-deploy`      | `solidity-deployer`      | Before any deployment to testnet or mainnet                      |
-| `/pre-upgrade`     | `solidity-upgrader`      | Before any proxy upgrade                                         |
+| `/audit-prep`      | `solidity-audit-prep`    | Code is feature-complete, preparing for external audit            |
+| `/pre-deploy`      | `solidity-deployer`      | Before any deployment to testnet or mainnet                       |
+| `/pre-upgrade`     | `solidity-upgrader`      | Before any proxy upgrade                                          |
 
 > **Full specifications:**
 > - `spec/commands-prd/new-contract-prd.md`
