@@ -1,0 +1,9 @@
+{
+  "plugins": [
+    {
+      "name": "decipher-solidity-superpowers",
+      "description": "End-to-end Solidity smart contract workflow enforcement for Claude Code",
+      "repository": "https://github.com/zaryab2000/decipher-solidity-superpowers"
+    }
+  ]
+}
