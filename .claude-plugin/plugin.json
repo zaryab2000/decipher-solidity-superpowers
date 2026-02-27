@@ -1,0 +1,11 @@
+{
+  "name": "decipher-solidity-superpowers",
+  "description": "End-to-end Solidity smart contract workflow: planning, TDD with Foundry, gas optimization, security review, deployment, upgrades, and audit preparation",
+  "version": "1.0.0",
+  "author": {
+    "name": "Zaryab"
+  },
+  "repository": "https://github.com/zaryab2000/decipher-solidity-superpowers",
+  "license": "MIT",
+  "keywords": ["solidity", "foundry", "smart-contracts", "tdd", "security", "gas", "audit", "defi", "evm"]
+}
