@@ -17,8 +17,8 @@ metadata:
 ## When
 
 During or after the build phase, when the contract handles value (ETH, tokens, shares, debt
-positions) and needs testing beyond unit tests. Also when adding property-based tests or fork
-tests to existing contracts.
+positions) and needs testing beyond just simple unit tests.
+Also when adding property-based tests or forktests to existing contracts. And also useful when testing is required between different contract interactions or cross-contract calls.
 
 ## The strict rule
 
