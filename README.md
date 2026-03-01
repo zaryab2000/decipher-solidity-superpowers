@@ -2,7 +2,7 @@
 
 A Claude Code plugin that enforces a gate-based workflow for Solidity smart contract development. Every phase — planning, building, testing, gas optimization, documentation, deployment, upgrades, and audit prep — is a mandatory checkpoint, not a suggestion.
 
-## ⚠️ Work in Progress — Do Not Install Yet
+## ⚠️ Work in Progress — Do Not Install for now
 
 This plugin is under active development and is not ready for use. APIs, skill files, and hook behavior may change without notice. Installation instructions will be added when the first stable release is ready.
 
